@@ -1,9 +1,11 @@
-## Instructions
+# Instructions
 Please install python3 and pygame to run this game!
 ```
 cd timowilken
 python3 flappybird.py
 ```
+## Game
+This game is a clone of timowilken's flappybird in python, modified to automatically play itself using Q-reinforcement learning
 ## States
 The project is setup with the states represented by 3 factors: the distance of the bird horizontally (x), vertically (y) away from the center of the pipe, and the vertical quadrant of the bird itself (defined discretely {0, 1, 2, 3}).
 
